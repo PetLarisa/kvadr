@@ -20,7 +20,7 @@
   
         <div class = "kvadrat"> <?php
 if (!empty($_POST["number1"]) && !empty($_POST["answer"])) { 
-    echo 'Рассчет квадрата чисел от ' . $_POST["number1"] . 'до' . $_POST["answer"];
+    echo 'Рассчет квадрата чисел от ' . $_POST["number1"] . ' до ' . $_POST["answer"];
 }
 ?></div>      
 
